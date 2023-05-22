@@ -1,0 +1,37 @@
+[
+  {
+    "user_name": "tira",
+    "email": "tira@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "alex",
+    "email": "alex@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "julian",
+    "email": "drax@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "luffy",
+    "email": "luffy@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "morgan",
+    "email": "morgan@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "sebastian",
+    "email": "seb@mail.com",
+    "password": "12345"
+  },
+  {
+    "user_name": "charles",
+    "email": "charles@mail.com",
+    "password": "12345"
+  }
+]

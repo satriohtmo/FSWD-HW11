@@ -1,0 +1,92 @@
+[
+  {
+    "list": "car",
+    "description": "wash car at deluxe car wash",
+    "UserId": 2
+  },
+  {
+    "list": "clean",
+    "description": "clean bedroom and bathroom",
+    "UserId": 1
+  },
+  {
+    "list": "car",
+    "description": "buy toyota celica at toyota dealer",
+    "UserId": 3
+  },
+  {
+    "list": "homework",
+    "description": "finish home work nodejs",
+    "UserId": 5
+  },
+  {
+    "list": "house",
+    "description": "buy sofa, tv and chair",
+    "UserId": 2
+  },
+  {
+    "list": "kitchen",
+    "description": "buy meat, fish, egg and buy some herbs",
+    "UserId": 1
+  },
+  {
+    "list": "promise",
+    "description": "meet joni at starbucks in wednesday",
+    "UserId": 2
+  },
+  {
+    "list": "watch",
+    "description": "watch iron man 2 at XXI with my mom",
+    "UserId": 6
+  },
+  {
+    "list": "plant",
+    "description": "water the plan and buy some soil",
+    "UserId": 6
+  },
+  {
+    "list": "pets",
+    "description": "feed the cat everyday",
+    "UserId": 4
+  },
+  {
+    "list": "phone",
+    "description": "service lcd and buy some accessories",
+    "UserId": 7
+  },
+  {
+    "list": "concert",
+    "description": "buy ticker red hot chilli papper tommorow",
+    "UserId": 5
+  },
+  {
+    "list": "computer",
+    "description": "service computer at Plaza",
+    "UserId": 2
+  },
+  {
+    "list": "study",
+    "description": "learn node and docker",
+    "UserId": 4
+  },
+  {
+    "list": "project",
+    "description": "finish project before deadline",
+    "UserId": 2
+  },
+  {
+    "list": "trash",
+    "description": "empty trash everday and throw to dumpster",
+    "UserId": 2
+  },
+  {
+    "list": "travel",
+    "description": "book ticket to dubai",
+    "UserId": 1
+  },
+  {
+    "list": "review",
+    "description": "review the new car",
+    "UserId": 3
+  }
+]
