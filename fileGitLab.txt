@@ -1,0 +1,15 @@
+link gitlab : 
+https://gitlab.com/fswd3/hw11/-/tree/main 
+
+to start project
+- npm i pg sequelize jsonwebtoken dotenv bcrypt express 
+- npm i --save-dev sequelize-cli nodemon jest supertest
+- npx sequelize db:create
+- npx sequelize db:migrate
+- npx sequelize db:seed:all
+- npm run start = untuk hit api
+- npm run test = untuk testing api
+- config dockerfile dan docker-compose
+- docker build -t fswd-hw11 . = untuk membuat image
+- docker-compose up
+- config ci/cd

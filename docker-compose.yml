@@ -1,0 +1,52 @@
+# version: "3"
+
+# networks:
+#   app-tier:
+#     driver: bridge
+
+# services:
+#   fswd-h11:
+#     build: .
+#     networks:
+#       - app-tier
+#     ports:
+#       - "3000:3000"
+#     depends_on:
+#       - dbpgsql
+#     volumes:
+#       - ".:/fswd-hw11"
+#   dbpgsql:
+#     image: postgres:12
+#     ports:
+#       - "5432:5432"
+#     env_file:
+#       - .env
+#     environment:
+#       - POSTGRES_USER
+#       - POSTGRES_PASSWORD
+#       - POSTGRES_DB
+#     networks:
+#       - app-tier
+# version: "3"
+# services:
+#   web-server:
+#     image: fswd-hw11
+#     ports:
+#       - "3000:3000"
+version: "3"
+services:
+  web-server:
+    image: fswd-hw11
+    ports:
+      - "3000:3000"
+    depends_on:
+      - dbpgsql
+  dbpgsql:
+    image: postgres:12
+    ports:
+      - "5432:5432"
+    env_file: .env
+    environment:
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+      - POSTGRES_DB
